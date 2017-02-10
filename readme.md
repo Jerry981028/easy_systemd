@@ -13,8 +13,8 @@
  * [x0vncserver@.service](https://github.com/Jerry981028/easy_systemd/blob/master/x0vncserver%40.service)  
    ```
    wget https://github.com/Jerry981028/easy_systemd/raw/master/x0vncserver%40.service -O /etc/systemd/system/x0vncserver@.service  
-   systemctl enable vncserver@5901.service  
-   systemctl start vncserver@5901.service  
+   systemctl enable x0vncserver@5901.service  
+   systemctl start x0vncserver@5901.service  
    ```
    TIPS: `5901` represents for port number. For lightdm only.  
 
